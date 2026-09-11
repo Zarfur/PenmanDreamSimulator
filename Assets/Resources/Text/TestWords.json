@@ -1,0 +1,52 @@
+{
+    "startingNodeID": "TEST_START",
+
+    "nodes": [
+        {
+            "id": "TEST_START",
+            "speakerName": "STARTER",
+            "text": "CREAM STARTER {shake Y 15} LOOOOOOOOOOOL {shake X} 32878skjflksdjfkjskldjfksjfjskljdkfdjskl",
+            "speed": 99,
+            "nextNodeID": "TEST_CONTINUE",
+            "choices": []
+        },{
+            "id": "TEST_CONTINUE",
+            "speakerName": "STARTER",
+            "text": "FRAGGLE BAGGLE SHIMBLE DAGGLE! {speed 99} kjladngjndflgnadngjladnjgadngjlandkjgnaldngkjangjankjgnasljnajlsngjlsnlasngljasnglajsn aaaaa",
+            "speed": 99,
+            "nextNodeID": "TEST_CHOICES",
+            "choices": []
+        }
+        ,{
+            "id": "TEST_CHOICES",
+            "speakerName": "STARTER",
+            "text": "RA RA ROOO!!!!",
+            "speed": 20,
+            "nextNodeID": "TEST_CHOICES",
+            "choices": [
+                {
+                    "choiceText": "YES_TEXT",
+                    "targetNodeID": "YES"
+                },{
+                    "choiceText": "NO_TEXT",
+                    "targetNodeID": "NO"
+                }
+            ]
+        }
+        ,{
+            "id": "YES",
+            "speakerName": "STARTER",
+            "text": "IG DAWG",
+            "speed": 20,
+            "nextNodeID": "TEST_START",
+            "choices": []
+        },{
+            "id": "NO",
+            "speakerName": "STARTER",
+            "text": "NO!!!!!",
+            "speed": 20,
+            "nextNodeID": "",
+            "choices": []
+        }
+    ]
+}

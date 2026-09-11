@@ -1,0 +1,30 @@
+{
+    "startingNodeID": "SYMBOLS_NIL",
+
+    "nodes": [
+        {
+            "id": "SYMBOLS_NIL",
+            "speakerName": "Pen Knight",
+            "text": "...",
+            "speed": 20,
+            "nextNodeID": "SYMBOLS_NIL2",
+            "choices": []
+        },{
+            "id": "SYMBOLS_NIL2",
+            "speakerName": "Pen Knight",
+            "text": "I don't even know what I am looking at.",
+            "speed": 40,
+            "nextNodeID": "",
+            "choices": []
+        }
+        ,{
+            "id": "floorl",
+            "speakerName": "Pen Knight",
+            "text": "It looks like a symbol I've seen before.",
+            "speed": 40,
+            "nextNodeID": "",
+            "choices": []
+        }
+        
+    ]
+}
